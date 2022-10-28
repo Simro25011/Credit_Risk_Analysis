@@ -7,39 +7,40 @@ Using the credit card loan dataset from LendingClub, a P2P lending service, we w
 
 
 ## Results
+
 ### Oversampling
 
 - Naive Random Oversampling
 
 ![Naive Random Oversampling](https://github.com/Simro25011/Credit_Risk_Analysis/blob/main/Resources/oversampling.png)
 
-Balanced Accuracy: 0.6612700484668286
-Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-Recall: High/Low risk = .66/.67
+- Balanced Accuracy: 0.6612700484668286
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .66/.67
 
 - SMOTE Oversampling
 
 ![SMOTE Oversampling](https://github.com/Simro25011/Credit_Risk_Analysis/blob/main/Resources/Smote.png)
 
-Balanced Accuracy: 0.6303296388959394
-Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-Recall: High/Low risk = .62/.64
+- Balanced Accuracy: 0.6303296388959394.
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .62/.64
 
 ### Undersampling
 
 ![Undersampling](https://github.com/Simro25011/Credit_Risk_Analysis/blob/main/Resources/undersampling.png)
 
-Balanced Accuracy: 0.6303296388959394
-Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-Recall: High/Low risk = .63/.40
+- Balanced Accuracy: 0.6303296388959394
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .63/.40
 
 ### Combination (Over and Under) Sampling
 
 ![Combination (Over and Under) Sampling](https://github.com/Simro25011/Credit_Risk_Analysis/blob/main/Resources/Combination.png)
 
-Balanced Accuracy: 0.5173713090878325
-Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-Recall: High/Low risk = .70/.57
+- Balanced Accuracy: 0.5173713090878325
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .70/.57
 
 ### Ensemble Learners
 
@@ -47,17 +48,17 @@ Recall: High/Low risk = .70/.57
 
 ![Balanced Random Forest Classifier](https://github.com/Simro25011/Credit_Risk_Analysis/blob/main/Resources/Balanced%20random.png)
 
-Balanced Accuracy: 0.7877672625306695
-Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-Recall: High/Low risk = .67/.91
+- Balanced Accuracy: 0.7877672625306695
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .67/.91
 
-Easy Ensemble AdaBoost Class
-
-- Easy Ensemble AdaBoost Classifier
+#### Easy Ensemble AdaBoost Class
 
 ![Easy Ensemble AdaBoost Classifier](https://github.com/Simro25011/Credit_Risk_Analysis/blob/main/Resources/easy%20ensemble.png)
 
-Balanced Accuracy: 0.925427358175101
-Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-Recall: High/Low risk = .91/.94
+- Balanced Accuracy: 0.925427358175101
+- Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+- Recall: High/Low risk = .91/.94
+
+## Summary
 
