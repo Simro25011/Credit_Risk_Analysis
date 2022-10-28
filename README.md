@@ -10,7 +10,7 @@ Using the credit card loan dataset from LendingClub, a P2P lending service, we w
 
 ### Oversampling
 
-- Naive Random Oversampling
+#### Naive Random Oversampling
 
 ![Naive Random Oversampling](https://github.com/Simro25011/Credit_Risk_Analysis/blob/main/Resources/oversampling.png)
 
@@ -18,7 +18,7 @@ Using the credit card loan dataset from LendingClub, a P2P lending service, we w
 - Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 - Recall: High/Low risk = .66/.67
 
-- SMOTE Oversampling
+#### SMOTE Oversampling
 
 ![SMOTE Oversampling](https://github.com/Simro25011/Credit_Risk_Analysis/blob/main/Resources/Smote.png)
 
